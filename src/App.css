@@ -1,0 +1,82 @@
+.app {
+  background-image: url('bg.png');
+  height: 100vh;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(43, 65, 43);
+}
+
+.todo-input {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: .9rem;
+  margin-right: 10px;
+  width: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(246, 239, 255);
+}
+
+.todo-list{
+  margin-top: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left: -100px;
+}
+
+.todo-list label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+li {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+
+.todo-list input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: 14px; /* You can adjust the size */
+  height: 14px; /* Optional size tweak */
+}
+
+li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: rgb(141, 36, 36);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
